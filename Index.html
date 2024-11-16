@@ -1,240 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fylo</title>
-    <link rel="stylesheet" href="Index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-     crossorigin="anonymous">
+   <link rel="stylesheet" href="Index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
-     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
-     crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-     
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-        <link rel="icon" type="image/png" href="file:///D:/fylo-landing-page-with-two-column-layout-master/images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
- </head>
-<body>
+    <link rel="icon" type="image/png"
+    href="file:///D:/fylo-landing-page-with-two-column-layout-master/images/favicon-32x32.png">
+
+   </head>
+
+   <body>
 
     <nav class="d-flex justify-content-between align-items-center py-4 navbar navbar-expand-sm">
        <div class="container-fluid">
-        <div>
-            <img class="logo mx-5 py-3"  src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/logo.svg" alt="Logo" />
+             <div>
+              <img class="logo mx-5 py-3" src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/logo.svg"
+              alt="Logo" />
+             </div>
 
+              <!-- Toggler Button (Visible only in mobile view) -->
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+             </button>
+
+           <div class="collapse navbar-collapse nav-container" id="navbarNav">
+               <ul class="d-flex justify-content-between list-unstyled mx-4 navbar-nav ms-auto">
+                <li class="mx-4 nav-item"><strong>Features</strong> </li>
+                <li class="mx-4 nav-item"><strong>Team</strong> </li>
+               <li class="mx-4 nav-item"> <strong>Sign In</strong></li>
+              </ul>
+          </div>
 
         </div>
 
-        <!-- Toggler Button (Visible only in mobile view) -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse nav-container" id="navbarNav">
+     </nav>
 
-        <ul class="d-flex justify-content-between list-unstyled mx-4 navbar-nav ms-auto">
+        <div class="container-fluid"> <!-- Main div one -->
 
-            <li class="mx-4 nav-item"><strong>Features</strong> </li>
-            <li class="mx-4 nav-item"><strong>Team</strong> </li>
-            <li class="mx-4 nav-item"> <strong>Sign In</strong></li>
-
-
-        </ul>
-      </div>
-
-    </div>
+             <div class="d-flex align-items-center justify-content-center first-container">
+           <!-- It has heading, para and image element-->
+                 <div class=" Fylo-card col  col-md-6 col-sm-10 col-xs-10 col-10 box-1">
+                  <h1 class="mx-5  heading-element"> All your files in one secure location, accessible anywhere.</h1>
+                  <p class="mx-5  para-element">Fylo stores your most important file in one secure location. Access them
+                        wherever you need, share and collaborate with friends, family and co-workers.</p>
 
 
-    </nav>
+                    <form class="mx-5 second-container">
 
-    <div class="container-fluid">  <!-- Main div one -->
+                      <input class="email-element col  col-md-5 col-sm-12 col-xs-12 col-12" type="email" id="email" name="email"
+                         placeholder="Please Enter Your Email">
+                       <button class="button-element col col-md-5 col-sm-12 col-xs-12 col-12" type="submit" id="submit"
+                        name="Get started"> <strong>Get Started</strong> </button>
 
-        <div >
+                    </form>
 
-              <div> 
- 
-                   <div class="d-flex align-items-center justify-content-center first-container"> <!-- It has heading, para and image element-->
-                     <div class=" Fylo-card col  col-md-6 col-sm-10 col-xs-10 col-10 box-1">
-                       <h1 class="mx-5  heading-element"> All your files in one secure location, accessible anywhere.</h1> 
-                        <p class="mx-5  para-element">Fylo stores your most important file in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
-                   
-                
-                        <form class="mx-5 second-container">
-        
-                         <input class="email-element col  col-md-5 col-sm-12 col-xs-12 col-12" type="email" id="email" name="email" placeholder="Please Enter Your Email">
-                         <button class="button-element col col-md-5 col-sm-12 col-xs-12 col-12" type="submit" id="submit" name="Get started" > <strong>Get Started</strong> </button>
-        
-                         </form>
-                    
-                    </div>
-        
-                        <div class="box-2 col col-md-6 col-sm-6 col-xs-6 col-6"> <!--It has one image element -illustration-1 -->
-                         <img class="Fylo-img w-100 " src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg"/>
-                        </div>
-        
-        
-            </div>
-        
+                 </div>
+
+                 <div class="box-2 col col-md-6 col-sm-6 col-xs-6 col-6"> <!--It has one image element -illustration-1 -->
+                       <img class="Fylo-img w-100 "src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg" />
+                 </div>
+             </div>
+
+             <div class="col col-lg-12 mt-5"> <!-- It is curve image to divide the div container -->
+                <img class="col col-md-12 col-sm-12 col-xs-12 col-12"
+                 src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg" alt="Curve" />
+             </div>
+
          </div>
-         
-               <div  class="col col-lg-12 mt-5">  <!-- It is curve image to divide the div container -->
-                <img class="col col-md-12 col-sm-12 col-xs-12 col-12" src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg" alt="Curve"/>
-                  </div>
 
-                    
 
-           
+       <div class=" container-fluid mt-5">
 
-           
+       <div class="d-flex align-items-center first-container "> <!-- It has heading, para and image element-->
+        <div class="d-flex flex-column  first-container w-100 ">
+          <div class=" mx-4 Fylo-card  box-1  col  col-md-6 col-sm-10 col-xs-10 col-10">
+             <h1 class="mx-4 heading-element"> Stay productive, wherever you are</h1>
+             <p class=" mx-4 para-element">Never let location can be an issue when accessing your files. Fylo has you
+              covered for all of your file storage needs.</p>
+             <p class=" mx-4 para-element">Securely share files and folders with friends, family and colleagues for live
+              collaborattion. No email attachments required</p>
+              <a class="mx-4  href=" fylo" style="color: hsl(170, 45%, 43%);"> See how Fylo Works <img
+                src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/icon-arrow.svg" />
+              </a>
+
+             </div>
+
+          <div class="founder-card m-5 w-75"> <!-- quotes image in the card -->
+            <img src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/icon-quotes.svg" alt="quotes" />
+            <p> Fylo has improved our team productivity by an order of magnitude. Since making the switch our has become
+              a well-oiled collaboration machine.</p>
+
+            <div class="d-flex"> <!-- It has image element of avatar in the card-->
+              <img class="ceo-logo"
+                src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/avatar-testimonial.jpg"
+                alt="ceo" />
+
+              <div class="px-2"> <!-- It is a name and designation of the person-->
+                <h5> Kyle Burton</h5>
+                <p> Founder & CEO, Huddle </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="box-2 col col-md-6 col-sm-6 col-xs-6 col-6"> <!-- It has one image element-illustration-2 -->
+          <img class="Fylo-img w-100 "
+            src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/illustration-2.svg" />
+        </div>
+
+
+       </div>
+  
+       </div>
+
+
+       <div class="d-flex justify-content-between align-items-center p-5 Support-container">
+       <!-- It is a container for support and contact us -->
+ 
+       <div class="mx-4 Fylo-card  box-1  col  col-md-6 col-sm-10 col-xs-10 col-10">
+         <h1 class="mx-4 text-justify "> Get early access today</h1>
+          <p class="mx-4 text-justify mt-3"> It only takes minute to sign up and our free starter tier is extremely
+         generous. If you have any questions, our support team would be happy to help you. </p>
+
+        </div>
+
+        <div class="d-flex  flex-column justify-content-center align-items-center Fylo-card2 ">
+         <!-- email and submit element -->
+         <input class="email-element px-4" type="email" placeholder="Your Email Address" />
+         <button class="button-element px-5" type="submit"> Get Started For Free</button>
+
+          </div>
 
        </div>
 
-</div>
-
-
-<div class=" container-fluid mt-5">
-
-    <div> 
-
-          <div class="d-flex align-items-center first-container "> <!-- It has heading, para and image element-->
-           <div class="d-flex flex-column  first-container w-100 ">
-                   <div class=" mx-4 Fylo-card  box-1  col  col-md-6 col-sm-10 col-xs-10 col-10">
-                     <h1 class="mx-4 heading-element"> Stay productive, wherever you are</h1>
-                     <p class=" mx-4 para-element">Never let location can be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
-                     <p class=" mx-4 para-element">Securely share files and folders with friends, family and colleagues for live collaborattion. No email attachments required</p>
-                     <a class="mx-4  href="fylo" style="color: hsl(170, 45%, 43%);" > See how Fylo Works <img src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/icon-arrow.svg"/></a>
-          
-                   </div>
-
-                     <div class="founder-card m-5 w-75"> <!-- quotes image in the card -->
-                        <img src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/icon-quotes.svg" alt="quotes"/>
-                         <p> Fylo has improved our team productivity by an order of magnitude. Since making the switch  our has become a well-oiled collaboration machine.</p>
-       
-                         <div class="d-flex"> <!-- It has image element of avatar in the card-->
-                            <img class="ceo-logo"src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/avatar-testimonial.jpg" alt="ceo"/>
-
-                             <div class="px-2">  <!-- It is a name and designation of the person-->
-                                <h5>  Kyle Burton</h5>
-                                 <p>  Founder & CEO, Huddle </p>
-                               </div>
-
-                           </div>
-
-                      </div>
-
-                  </div>
-
-                          <div class="box-2 col col-md-6 col-sm-6 col-xs-6 col-6"> <!-- It has one image element-illustration-2 -->
-                        <img class="Fylo-img w-100 " src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/illustration-2.svg" />
-                          </div>
-
-
-     </div>
-
-     </div>
-
-
-    </div>
-
-
-    <div class="d-flex justify-content-between align-items-center p-5 Support-container"> <!-- It is a container for support and contact us -->
-
-      <div class="mx-4 Fylo-card  box-1  col  col-md-6 col-sm-10 col-xs-10 col-10">
-        <h1 class="mx-4 text-justify "> Get early access today</h1>
-        <p class="mx-4 text-justify mt-3"> It only takes minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you. </p>
-
-
-      </div>
-
-      <div class="d-flex  flex-column justify-content-center align-items-center Fylo-card2 "> <!-- email and submit element -->
-        <input class="email-element px-4" type="email" placeholder="Your Email Address"/>
-        <button class="button-element px-5" type="submit"> Get Started For Free</button>
-
-     </div>
-
-
-</div>
 
 
 
+     <footer class="foot-container"><!--Footer section -->
 
-<footer class="foot-container"><!--Footer section -->
+       <div class="mx-5">
 
-    <div class="mx-5">
-
-
-
-        <div class="p-3">  <!--It has logo, social media links and copyright -->
-            <img class=" pt-3 mb-3 logo" src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/logo.svg" alt="Logo" />
+          <div class="p-3"> <!--It has logo, social media links and copyright -->
+           <img class=" pt-3 mb-3 logo" src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/logo.svg"
+            alt="Logo" />
 
             <div class="d-flex justify-content-between foot-container2">
-            <div>
+             <div>
             <div class="d-flex align-items-center">
-            <img class="logo-icon" src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/icon-phone.svg" alt="phone" /> 
-            <p class="pt-3 px-3" style="color: white;"> Phone: +1-543-123-4567</p>
+              <img class="logo-icon"
+                src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/icon-phone.svg" alt="phone" />
+              <p class="pt-3 px-3" style="color: white;"> Phone: +1-543-123-4567</p>
             </div>
 
             <div class="d-flex align-items-center">
-                <img class="logo-icon" src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/icon-email.svg" alt="email" />
-                <p class="pt-3 px-3" style="color: white;"> Email: mailto:hello@fylo.com </p>
+              <img class="logo-icon"
+                src="file:///D:/fylo-landing-page-with-two-column-layout-master/images/icon-email.svg" alt="email" />
+              <p class="pt-3 px-3" style="color: white;"> Email: mailto:hello@fylo.com </p>
 
             </div>
 
-
-
-           </div>
-
-           <div >
-
-            <ul class=" list-conatiner list-unstyled">
-                <li><a href="#" class="text-white ">About Us</a></li>
-                <li><a href="#" class="text-white ">Jobs</a></li>
-                <li><a href="#" class="text-white ">Press</a></li>
-                <li><a href="#" class="text-white ">Blog</a></li>
-
-            </ul>
-           </div>
-
-                 <div >
-
-                    <ul class="list-conatiner list-unstyled">
-                   <li><a href="#" class="text-white ">Contact us</a></li>
-                   <li><a href="#" class="text-white ">Terms</a></li>
-                  <li><a href="#" class="text-white ">Privacy</a></li>
-               
-
-                  </ul>
-
-
-                  </div>
-        
-
-                     <div class="mt-3 d-flex justify-content-center align-items-center"> 
-
-                      <i class="bi bi-facebook text-white mx-3"></i>
-                       <i class="bi bi-instagram text-white mx-3"></i>
-                       <i class="bi bi-twitter text-white mx-3"></i>
-
-
-                     </div>
-
-
-             </div>
 
 
           </div>
 
-    
-       </div>
+          <div>
 
-  </footer>
+            <ul class=" list-conatiner list-unstyled">
+              <li><a href="#" class="text-white ">About Us</a></li>
+              <li><a href="#" class="text-white ">Jobs</a></li>
+              <li><a href="#" class="text-white ">Press</a></li>
+              <li><a href="#" class="text-white ">Blog</a></li>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+            </ul>
+          </div>
+
+          <div>
+
+            <ul class="list-conatiner list-unstyled">
+              <li><a href="#" class="text-white ">Contact us</a></li>
+              <li><a href="#" class="text-white ">Terms</a></li>
+              <li><a href="#" class="text-white ">Privacy</a></li>
+
+
+            </ul>
+
+          </div>
+
+
+          <div class="mt-3 d-flex justify-content-center align-items-center">
+
+            <i class="bi bi-facebook text-white mx-3"></i>
+            <i class="bi bi-instagram text-white mx-3"></i>
+            <i class="bi bi-twitter text-white mx-3"></i>
+
+          </div>
+
+        </div>
+
+          </div>
+
+      </div>
+
+     </footer>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
